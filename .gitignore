@@ -1,0 +1,18 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Power BI temporary/cache files
+*.tmp
+*.bak
+*.backup
+~$*
+
+# Logs
+*.log
+
+# Local environment files
+.env
+.env.*

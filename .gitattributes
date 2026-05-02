@@ -1,0 +1,9 @@
+# Power BI files are binary and should be tracked via Git LFS
+*.pbix filter=lfs diff=lfs merge=lfs -text
+*.pbit filter=lfs diff=lfs merge=lfs -text
+
+# Normalize text files
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
